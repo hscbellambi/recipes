@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest version of Zoom. Based on recipe from hansen-m</string>
     <key>Identifier</key>
-    <string>com.github.hscbellambi.zoomit</string>
+    <string>com.github.hscbellambi.zoomIT</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
