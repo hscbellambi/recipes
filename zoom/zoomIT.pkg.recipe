@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the current release version of Zoom and builds a package.</string>
 	<key>Identifier</key>
-	<string>com.github.hscbellambi.pkg.zoomit</string>
+	<string>com.github.hscbellambi.pkg.zoomIT</string>
 	<key>Input</key>
 	<dict>
 		<key>BUNDLE_ID</key>
@@ -16,7 +16,7 @@
 	<key>MinimumVersion</key>
 	<string>1.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.hscbellambi.download.zoomit</string>
+	<string>com.github.hscbellambi.download.zoomIT</string>
 	<key>Process</key>
 	<array>
 		<dict>
