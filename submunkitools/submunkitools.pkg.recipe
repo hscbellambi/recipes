@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+    <string>Extract the packages from inside a munkitools release.</string>
+    <key>Identifier</key>
+    <string>com.github.hscbellambi.pkg.submunkitools</string>
+    <key>Process</key>
+      <array>
+         <dict>
+            <key>Processor</key>
+            <string>PkgCopier</string>
+            <key>Arguments</key>
+            <dict>
+               <key>source_pkg</key>
+               <string>/Users/Shared/munkitools-5.2.0.4237.pkg</string>
+               <key>pkg_path</key>
+               <string>/Users/Shared/munkisubs/</string>
+            </dict>
+         </dict>
+      </array>
+   </dict>
+</plist>
